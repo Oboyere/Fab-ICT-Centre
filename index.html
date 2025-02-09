@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Fab ICT Centre</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</head>
+<body>
+<div class="menu-bar">
+<ul>   
+<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="#"><i class="fa fa-user"></i>About Us</a>
+    <div class="sub-menu-1">
+        <ul>
+            <li><a href="#">Mission</a><p>The purpose of this project is to provide basic IT knowledge and skills to the community; a description of all the activities undertaken in this project is described on the table of content; the mission and Vision.</p>
+              <p>We believe this project will helped the community to acquire basic knowledge in computer and other areas that require technology; printer management, digital documentation, internet and online digital skills. This will be a transport system tool that will be used to carry the community from ancient world to today’s world the computer world).</p> 
+              </li> 
+            <li><a href="#">Vision</a></li> 
+            <li><a href="#">Motto</a></li> 
+        </ul>
+    </div>
+</li>
+<li><a href="#"><i class="fa fa-download"></i>Downloads</a></i>
+<div class="sub-menu-1">
+<ul>
+<li>
+<a href="#">Fab Fee Structure <p>Click on the image to download it:<p>
+    <a download href="fabf.jpg">
+      <img src="fabf.jpg" alt="Fee structure" width="104" height="142">
+  </a>
+    </li> 
+<li class="hover-me"><a href="#">Computer Notes</a><i class="fa fa-angle-right"></i>
+    <div class="sub-menu-2">
+        <ul>
+            <li><a href="#">Packages notes</a></li> 
+            <li><a href="#">Dig. Literacy</a></li> 
+            <li><a href="#">Video Tutorials</a></li> 
+        </ul>
+    </div>
+</li>
+        <li><a href="#">bronchure</a><i class="fa fa-angle-right"></i></li>  
+    </ul>
+</div>
+</li>
+<li><a href="#"><i class="fa fa-clone"></i>Cyber Services</a></li>
+<li><a href="#"><i class="fa fa-users"></i>Student Portal</a></li>
+<li><a href="#"><i class="fa fa-car"></i>Accessories</a></li>
+<li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+</ul>
+</div>
+</body>
+</html>
