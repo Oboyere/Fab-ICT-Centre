@@ -6,7 +6,7 @@
 }
 body
 {
-background-image: url(cp.jpg);
+background-image: url(fb.png);
 background-size: cover;
 background-position: center;
 box-sizing: border-box;
@@ -14,14 +14,14 @@ font-family: sans-serif;
 }
 .menu-bar
 {
-background: rgb(71, 225, 236);
+background: rgb(85, 236, 71);
 text-align: center;
 }
 .menu-bar ul
 {
     display: inline-flex;
     list-style: none;
-    color: #fff;
+    color: #130101;
 }
 .menu-bar ul li
 {
@@ -32,11 +32,11 @@ text-align: center;
 .menu-bar ul li a
 {
     text-decoration: none;
-    color: #fff;
+    color: #070101;
 }
 .active, .menu-bar ul li:hover
 {
-    background: #99f5f5;
+    background: #13f00b;
     border-radius: 3px;
 }
 .menu-bar .fa
@@ -52,7 +52,7 @@ text-align: center;
 {
     display: block;
     position:absolute;
-    background: rgb(71, 225, 236);
+    background: rgb(9, 235, 65);
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -65,7 +65,7 @@ text-align: center;
 {
     width: 150px;
     padding: 10px;
-    border-bottom: 1px dotted #fff;
+    border-bottom: 1px dotted hwb(0 100% 0%);
     background: transparent;
     border-radius: 0;
     text-align: left;
@@ -76,7 +76,7 @@ text-align: center;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover
 {
-    color: #5b71ec;
+    color: #e733b1;
 }
 .fa-angle-right
 {
@@ -92,6 +92,6 @@ text-align: center;
     display: block;
     margin-top: 40px;
     margin-left: 140px;
-    background: rgb(53, 135, 230);
+    background: rgb(200, 53, 230);
 }
 
