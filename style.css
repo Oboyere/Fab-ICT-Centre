@@ -25,7 +25,7 @@ text-align: center;
 }
 .menu-bar ul li
 {
-    width: 120px;
+    width: 140px;
     margin: 15px;
     padding: 15px;
 }
@@ -63,7 +63,7 @@ text-align: center;
 }
 .menu-bar UL LI:hover .sub-menu-1 ul li
 {
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border-bottom: 1px dotted hwb(0 100% 0%);
     background: transparent;
